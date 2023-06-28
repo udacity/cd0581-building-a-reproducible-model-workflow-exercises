@@ -1,0 +1,35 @@
+2023-06-28 20:31:56,851 Getting artifact
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Project dphedderich/execise_1 does not contain artifact: "zen_of_python:v1"
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/wandb/apis/public.py", line 928, in artifact
+    artifact = artifacts.PublicArtifact(self.client, entity, project, artifact_name)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/wandb/sdk/artifacts/public_artifact.py", line 225, in __init__
+    self._attrs = attrs or self._load()
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/wandb/sdk/artifacts/public_artifact.py", line 998, in _load
+    raise ValueError(
+ValueError: Project dphedderich/execise_1 does not contain artifact: "zen_of_python:v1"
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/workspaces/building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/use_artifact.py", line 40, in <module>
+    go(args)
+  File "/workspaces/building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/use_artifact.py", line 18, in go
+    artifact = run.use_artifact(args.artifact_name)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 342, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 332, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2675, in use_artifact
+    artifact = public_api.artifact(type=type, name=name)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/wandb/apis/normalize.py", line 87, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/wandb/apis/public.py", line 928, in artifact
+    artifact = artifacts.PublicArtifact(self.client, entity, project, artifact_name)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/wandb/sdk/artifacts/public_artifact.py", line 225, in __init__
+    self._attrs = attrs or self._load()
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/wandb/sdk/artifacts/public_artifact.py", line 998, in _load
+    raise ValueError(
+wandb.errors.CommError: Project dphedderich/execise_1 does not contain artifact: "zen_of_python:v1"

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/workspaces/building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/upload_artifact.py", line 55, in <module>
+    go(args)
+  File "/workspaces/building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/upload_artifact.py", line 21, in go
+    description=args.artifact_desc
+AttributeError: 'Namespace' object has no attribute 'artifact_desc'

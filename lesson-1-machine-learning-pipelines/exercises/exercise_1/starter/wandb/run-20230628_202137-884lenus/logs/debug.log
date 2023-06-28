@@ -1,0 +1,27 @@
+2023-06-28 20:21:37,709 INFO    MainThread:18620 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-06-28 20:21:37,709 INFO    MainThread:18620 [wandb_setup.py:_flush():76] Configure stats pid to 18620
+2023-06-28 20:21:37,710 INFO    MainThread:18620 [wandb_setup.py:_flush():76] Loading settings from /home/codespace/.config/wandb/settings
+2023-06-28 20:21:37,710 INFO    MainThread:18620 [wandb_setup.py:_flush():76] Loading settings from /workspaces/building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/settings
+2023-06-28 20:21:37,710 INFO    MainThread:18620 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-06-28 20:21:37,710 INFO    MainThread:18620 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-06-28 20:21:37,710 INFO    MainThread:18620 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/upload_artifact.py', 'program': '/workspaces/building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/upload_artifact.py'}
+2023-06-28 20:21:37,710 INFO    MainThread:18620 [wandb_init.py:_log_setup():507] Logging user logs to /workspaces/building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230628_202137-884lenus/logs/debug.log
+2023-06-28 20:21:37,710 INFO    MainThread:18620 [wandb_init.py:_log_setup():508] Logging internal logs to /workspaces/building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/wandb/run-20230628_202137-884lenus/logs/debug-internal.log
+2023-06-28 20:21:37,710 INFO    MainThread:18620 [wandb_init.py:init():547] calling init triggers
+2023-06-28 20:21:37,710 INFO    MainThread:18620 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-06-28 20:21:37,710 INFO    MainThread:18620 [wandb_init.py:init():596] starting backend
+2023-06-28 20:21:37,710 INFO    MainThread:18620 [wandb_init.py:init():600] setting up manager
+2023-06-28 20:21:37,712 INFO    MainThread:18620 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-06-28 20:21:37,715 INFO    MainThread:18620 [wandb_init.py:init():606] backend started and connected
+2023-06-28 20:21:37,716 INFO    MainThread:18620 [wandb_init.py:init():703] updated telemetry
+2023-06-28 20:21:37,725 INFO    MainThread:18620 [wandb_init.py:init():736] communicating run to backend with 60.0 second timeout
+2023-06-28 20:21:38,068 INFO    MainThread:18620 [wandb_run.py:_on_init():2176] communicating current version
+2023-06-28 20:21:38,116 INFO    MainThread:18620 [wandb_run.py:_on_init():2185] got version response 
+2023-06-28 20:21:38,116 INFO    MainThread:18620 [wandb_init.py:init():787] starting run threads in backend
+2023-06-28 20:21:38,153 INFO    MainThread:18620 [wandb_run.py:_console_start():2155] atexit reg
+2023-06-28 20:21:38,153 INFO    MainThread:18620 [wandb_run.py:_redirect():2010] redirect: SettingsConsole.WRAP_RAW
+2023-06-28 20:21:38,153 INFO    MainThread:18620 [wandb_run.py:_redirect():2075] Wrapping output streams.
+2023-06-28 20:21:38,153 INFO    MainThread:18620 [wandb_run.py:_redirect():2100] Redirects installed.
+2023-06-28 20:21:38,154 INFO    MainThread:18620 [wandb_init.py:init():828] run started, returning control to user process
+2023-06-28 20:21:45,105 WARNING MsgRouterThr:18620 [router.py:message_loop():77] message_loop has been closed

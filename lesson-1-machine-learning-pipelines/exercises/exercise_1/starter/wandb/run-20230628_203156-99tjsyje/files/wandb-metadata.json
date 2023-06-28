@@ -1,0 +1,50 @@
+{
+    "os": "Linux-5.15.0-1039-azure-x86_64-with-glibc2.31",
+    "python": "3.10.8",
+    "heartbeatAt": "2023-06-28T20:31:56.823717",
+    "startedAt": "2023-06-28T20:31:56.380635",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--artifact_name",
+        "execise_1/zen_of_python:v1"
+    ],
+    "state": "running",
+    "program": "/workspaces/building-a-reproducible-model-workflow-exercises/lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/use_artifact.py",
+    "codePath": "lesson-1-machine-learning-pipelines/exercises/exercise_1/starter/use_artifact.py",
+    "git": {
+        "remote": "https://github.com/dhedderich/building-a-reproducible-model-workflow-exercises",
+        "commit": "f8ceef1ef5f8d5e8ac5995dbf09d0c6d8be15827"
+    },
+    "email": "61595414+dhedderich@users.noreply.github.com",
+    "root": "/workspaces/building-a-reproducible-model-workflow-exercises",
+    "host": "codespaces-c19929",
+    "username": "codespace",
+    "executable": "/home/codespace/.python/current/bin/python",
+    "cpu_count": 1,
+    "cpu_count_logical": 2,
+    "cpu_freq": {
+        "current": 2593.905,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2593.905,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2593.905,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 31.32598876953125,
+        "used": 15.835075378417969
+    },
+    "memory": {
+        "total": 3.833934783935547
+    }
+}
